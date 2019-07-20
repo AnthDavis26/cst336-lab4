@@ -1,18 +1,18 @@
 const express = require("express");
 const app = express();
-app.engine('php', require('ejs').renderFile);
+app.engine('html', require('ejs').renderFile);
 app.use(express.static("public"));
 
 app.get("/", function(req, res) {
-	res.render("index.php");
+	res.render("index.ejs");
 });
 
 app.get("/mercury", function(req, res){
-	res.render("mercury.php");
+	res.render("mercury.ejs");
 });
 
 app.get("/venus", function(req, res){
-	res.render("venus.php");
+	res.render("venus.ejs");
 });
 
 // server listener
