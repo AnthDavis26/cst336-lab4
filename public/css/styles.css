@@ -1,5 +1,40 @@
+header img {
+	width: 50%;
+}
+
 body {
-	background-color: #0f0c19;
+	background-color: black;
 	text-align: center;
 	color: white;
+
+}
+
+#planet_navigation h2 {
+	font-family: "Arial";
+}
+
+#planet_navigation a {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 5px;
+	color: white;
+}
+
+#not_a_planet a {
+	color: black;
+}
+
+#planet_img img {
+	width: 15%;
+}
+
+#planet_info {
+	margin-left: 33%;
+	margin-right: 33%;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+footer {
+	font-size: .85em;
 }
